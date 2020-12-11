@@ -65,9 +65,17 @@ header,section,nav,article,footer,aside
         width: 50%;
         float: right;
         margin: 20px;
-        border: 1px solid black;
         display: block ;
     }
     .pie {
         clear: both;
+    }
+    .videopizza {
+        width:60%;
+    }
+    .fotopizza {
+        width:60%;
+    }
+    .comiendo {
+        
     }
