@@ -1,0 +1,18 @@
+h1 {
+    font-size: 20px;
+    font-family: sans-serif ;
+    font-weight: bold ;
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold; 
+    font-family: calibri ;
+    background-color: rgb(200, 255, 0);
+}
+header,section,nav,article,footer,aside
+ {
+    display: block ;
+    }
+    body {
+        text-align: center ;
+    }
