@@ -1,3 +1,8 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
 h1 {
     font-size: 20px;
     font-family: sans-serif ;
@@ -6,7 +11,7 @@ h1 {
 h2 {
     font-size: 40px;
     font-weight: bold; 
-    font-family: calibri ;
+    font-family: sans ;
     background-color: rgb(200, 255, 0);
 }
 header,section,nav,article,footer,aside
@@ -15,4 +20,54 @@ header,section,nav,article,footer,aside
     }
     body {
         text-align: center ;
+    }
+    .agrupar {
+        background-color: aqua;
+        margin: 15px 15px ;
+        padding: 40px;
+        border: 1px solid black;
+    }
+    .header { 
+        background:#FFBB00;
+        margin-left: ;
+    }
+    .thick-withe-border {
+        border-color:rgb(163, 94, 4);
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 100px;
+        margin: align;
+        
+        
+    }
+    .menu {
+        background: #FEFF72;
+        padding: 15px 5px;
+        text-align: left;
+
+    }
+    .menu li {
+        list-style: none ;
+        font: bold 14px verdana ;
+        display: inline-block;
+        text-align: left ;
+    }
+    .seccion {
+        margin: 20px;
+        width: 70%px;
+        border: 1px solid black ;
+        float: left;
+        background-color: #FDF5C9;
+    }
+    .menudos li {
+        list-style: none;
+        font: bold 14px verdana ;
+        width: 50%;
+        float: right;
+        margin: 20px;
+        border: 1px solid black;
+        display: block ;
+    }
+    .pie {
+        clear: both;
     }
