@@ -14,7 +14,7 @@ h2 {
     font-family: sans ;
     background-color: rgb(200, 255, 0);
 }
-header,section,nav,article,footer,aside
+header,nav,article,footer,aside
  {
     display: block ;
     }
@@ -22,14 +22,14 @@ header,section,nav,article,footer,aside
         text-align: center ;
     }
     .agrupar {
-        background-color: black ;
+        background-color: #B21212;
         margin: 15px 15px ;
         padding: 40px;
         border: 1px solid black;
     }
     .header { 
         background:#FFBB00;
-        margin-left: ;
+        
     }
     .thick-withe-border {
         border-color:rgb(163, 94, 4);
@@ -54,10 +54,11 @@ header,section,nav,article,footer,aside
     }
     .seccion {
         margin: 20px;
-        width: 70%px;
+        width: 100%px;
         border: 1px solid black ;
         float: left;
         background-color: #FDF5C9;
+        height: 100%;
     }
     .menudos li {
         list-style: none;
