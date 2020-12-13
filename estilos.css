@@ -55,6 +55,11 @@ header,nav,article,footer,aside
         display: inline-block;
         text-align: left ;
     }
+    .botoncontacto {
+        border-style: 1px solid #f20505;
+        background-color: #FEFF72;
+        border-radius: 1px solid black;
+    }
     .seccion {
         margin: 20px;
         width: 100%px;
