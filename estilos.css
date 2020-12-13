@@ -30,7 +30,7 @@ header,nav,article,footer,aside
 
     }
     .header { 
-        background:#FFBB00;
+        background:#F4eea9;
         
     }
     .thick-withe-border {
@@ -47,19 +47,24 @@ header,nav,article,footer,aside
         padding: 15px 5px;
         text-align: left;
         display: block ;
+        
 
     }
     .menu li {
         list-style: none ;
-        font: bold 14px verdana ;
+        font: bolder 14px verdana ;
         display: inline-block;
         text-align: left ;
+        padding: 5px;
+        
+        
     }
-    .botoncontacto {
-        border-style: 1px solid #f20505;
-        background-color: #FEFF72;
-        border-radius: 1px solid black;
+    a {
+        font-style: verdana;
+        background-color: #ffffff;
     }
+       
+    
     .seccion {
         margin: 20px;
         width: 100%px;
