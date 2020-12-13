@@ -22,10 +22,12 @@ header,nav,article,footer,aside
         text-align: center ;
     }
     .agrupar {
-        background-color: #B21212;
-        margin: 15px 15px ;
-        padding: 40px;
-        border: 1px solid black;
+        margin: 15px 15px #ffffff ;
+        padding: 40px;   
+        background: #e5e6eb;
+
+
+
     }
     .header { 
         background:#FFBB00;
@@ -44,6 +46,7 @@ header,nav,article,footer,aside
         background: #FEFF72;
         padding: 15px 5px;
         text-align: left;
+        display: block ;
 
     }
     .menu li {
@@ -55,21 +58,37 @@ header,nav,article,footer,aside
     .seccion {
         margin: 20px;
         width: 100%px;
-        border: 1px solid black ;
         float: left;
-        background-color: #FDF5C9;
+        background-color:#e5e6eb;
         height: 100%;
+    }
+    article {
+        background: #FFDC73;
+        border: 1px solid #999 ;
+        padding: 50px;
+        margin-bottom: 15px;
+    }
+    article footer {
+        text-align: right ;
+        margin-top: 20px;
+    }
+    article h1 {
+        color: #77aaff;
     }
     .menudos li {
         list-style: none;
         font: bold 14px verdana ;
         width: 50%;
         float: right;
-        margin: 20px;
+        margin-top: 20px;
         display: block ;
+        
     }
     .pie {
         clear: both;
+        padding: 20px;
+        background: #3366ff;
+        color:#ffffff;
     }
     .videopizza {
         width:60%;
@@ -79,5 +98,7 @@ header,nav,article,footer,aside
     }
     .comiendo {
         align: center;
+        margin-top: 20px;
+        
         
     }
