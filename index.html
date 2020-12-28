@@ -37,7 +37,32 @@
                                    <article> 
                                            <h1> Donde encontrarnos?</h1>
                                             <p> La mejor Pizza de la ciudad de SANTA ROSA</p>
-                                          
+                                           <img name="slider" width="500" height="250"
+    
+       window.addEventListener("load", function()
+       { console.log("el contenido a cargado");
+       var imagenes = [ ] ;
+       imagenes [0] = "img/imagen1.jpg";
+       imagenes [1] = "img/imagen2.jpg";
+       imagenes [2] = "img/imagen3.jpg";
+        var indiceImagenes = 0;
+        var tiempo = 1000;
+
+
+       function cambiarImagenes()
+       {  
+        document.slider.src = imagenes [indiceImagenes];
+        if (indiceImagenes < 2){
+            indiceImagenes++;
+        } else {
+            indiceImagenes = 0;
+        }
+
+
+       }
+       setInterval(cambiarImagenes, tiempo );
+    });>
+       
                                       <footer>
                                         <p>Comentarios (0)</p>
                                       </footer>
@@ -48,6 +73,10 @@
                                       <address>
                                           <a href="http://www.italia.it/es/ideas-de-viaje/gastronomia/la-pizza.html">Aprende mas sobre la Pizza </a>
                                       </address>
+ 
+       
+
+
                                       <footer>
     <p>Comentarios (0)</p>                                                                                                                                                                                                                                                                                                                                                                                                                                             
 
