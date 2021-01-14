@@ -15,8 +15,10 @@ h2 {
     background-color: rgb(200, 255, 0);
 }
 header,nav,article,footer,aside
- {
-    display: block ;
+ { width: 90%;
+    max-width: 0 auto;
+    height: auto;
+    display: block;
     }
     body {
         text-align: center ;
