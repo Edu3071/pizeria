@@ -72,7 +72,7 @@ header,nav,article,footer,aside
         width: 100%px;
         float: left;
         background-color:#e5e6eb;
-        height: 100%;
+        height: auto;
     }
     article {
         background: #FFDC73;
